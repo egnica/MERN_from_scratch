@@ -1,11 +1,17 @@
-import "./App.css";
+import {Container} from "react-bootstrap";
+import Footer from "./components/footer";
+import Header from "./components/header";
 
 function App() {
 	return (
 		<>
-			<h1>Test</h1>
-			<h2>Test 2</h2>
-			<p>Test 3</p>
+			<Header />
+			<main className='py-3'>
+				<Container>
+					<h1>Welcome To ProShop</h1>
+				</Container>
+			</main>
+			<Footer />
 		</>
 	);
 }
